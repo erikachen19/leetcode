@@ -1,0 +1,25 @@
+Boa tarde,
+sou a Érika e atuo como Engenheira de Dados na Comunidade Cloud, na frente de CloudMetadados.
+
+O CloudMetadados é um produto que contém os dados inventariais de todos os recursos utilizados em todas as contas AWS, Huawei e Azure.
+Esses dados podem ser consumidos via Amazon Athena ou por meio de dashboards no Amazon QuickSight.
+
+Um dos casos de uso é o monitoramento de obsolescência dos recursos, evitando cobranças de extended support.
+
+Antes de atuar na comunidade Cloud, trabalhei como Engenheira de Dados na Comunidade Produtos de Dados, atendendo ao OKR 100Sor.
+Desenvolvi um conector chamado Phoenix JDBC, que permite trazer tabelas do AWS Data Mesh a partir de um banco backlevel on-premise.
+Esse conector já foi entregue com testes automatizados, data quality e monitoramento implementados.
+Desde o seu lançamento, no início do ano, ele já ajudou a trazer mais de 5 mil tabelas para o AWS Mesh.
+
+Em seguida, para atender ao OKR 100Oferta, acompanhei tecnicamente o desenvolvimento do Phoenix DynamoDB, que democratiza dados no AWS Mesh a partir de tabelas do DynamoDB.
+A solução foi construída pelo time da Accenture, e eu fui responsável pelo desenho da arquitetura do banco, definição de estratégias, planos de teste e implementação de boas práticas.
+Essa solução já permitiu incorporar mais de 200 tabelas de DynamoDB ao AWS Mesh.
+
+Compartilhando também um pouco de experiências anteriores:
+Atuei como Engenheira de Dados no BTG Pactual, na frente de crédito PME.
+No dia a dia, eu conversava diretamente com os times de negócios para mapear e atender necessidades de dados.
+Trabalhava com o desenvolvimento de pipelines de dados e soluções analíticas.
+
+Os pipelines seguiam arquitetura event-driven, near real-time e batch, todos com data quality e testes.
+As soluções analíticas incluíam automação de relatórios e o desenvolvimento de uma feature store 360º, com métricas comportamentais dos clientes em diferentes janelas de tempo.
+Essas features são utilizadas no motor de crédito e em modelos científicos para qualificação de clientes e concessão de crédito
