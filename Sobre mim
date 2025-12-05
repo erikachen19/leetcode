@@ -23,3 +23,55 @@ Trabalhava com o desenvolvimento de pipelines de dados e soluções analíticas.
 Os pipelines seguiam arquitetura event-driven, near real-time e batch, todos com data quality e testes.
 As soluções analíticas incluíam automação de relatórios e o desenvolvimento de uma feature store 360º, com métricas comportamentais dos clientes em diferentes janelas de tempo.
 Essas features são utilizadas no motor de crédito e em modelos científicos para qualificação de clientes e concessão de crédito
+
+
+Sou chinesa
+Nasci na China, e vim aqui no banco quando tinha 17 anos, 
+To morando no Brasil há mais 10 anos. 
+Fiz matemática aplicada e computacional na usp e Me formei em 2021. 
+meu primeiro estagio de engenharia foi em 2019 em uma consultoria chamada Keyrus. 
+e apoiava na migração de cloudera para AWS. 
+alem de cosneguir aprender bastante coisas sobre hadoop, spark, aws sql. 
+Também tive a sorte de encontrar um mentor que me ajudou a desenvolver uma atitude profissional muito importante: pesquisar antes de perguntar.
+Ele sempre me orientava a investigar o problema, entender a causa e testar possíveis soluções por conta própria.
+Se depois de um tempo razoável eu ainda não tivesse chegado a uma resposta, aí sim deveria procurá-lo.
+Esse processo desenvolveu minha autonomia técnica e ampliou minha capacidade de ir a fundo nos problemas.
+e me benifica ate hoje. 
+e quando preciso acompanhar alguem tecnicamente, eu tbm aplicar a mesma metodolagem. 
+precisei apoiar a estagiaria em uma demanda de democratizacao de dados usando glue no meio do setembro.
+ela nao tinha conhecimento sobre democratizacao, nem de glue, 
+marcava meio hora com ela para ela trazer duvidas.  blavla, ela depois ate comecou a ensinar outra estagiaria blabla.
+agora ela é o ponto focal dessa fonte de dados.
+Fico muito feliz em ver a evolução dela e tbm por poder fazer parte do desenvolvimento dela.
+
+depois de um ano do keyrus, 
+um colega me indicou para trabalhar em uma consultoria interna do btg chamada decode como junior. 
+trabalhava na construcao de datalake do produto btg empresas. 
+e depois de um ano do decode, entrei no btg, na frente de credito pme. 
+Eu era responsável pelo desenvolvimento de pipes e soluções analíticas. 
+Uma das entregas mais relevantes foi feature store. 
+O feature store era um fonte de métricas comportamentais dos clientes. 
+E foi projeto para redução de taxa de inadimplência e tbm recomendação de produtos. 
+
+Por exemplo o caso de pagamento recebível, 
+Um cnpj pode vir pedir para o banco antecipar o pagamento dos recebíveis como pagamento em crédito, boletos futuros etc. 
+lá no feature store o processo olha  há concentração em poucos clientes ao longo do tempo. Pois pode quebrar a empresa se esses clientes pararem de ser parceria 
+E a relação com os clientes. 
+Se um CNPJ solicitar antecipação de um boleto emitido por outro CNPJ, e esses CNPJs são de parentes do sócio, e tem o relacionamento comercial legal entre esses cnpj, 
+Mas um dia a cnpj pode está 
+Falindo, mas recebe boleto de pagamento do cnpj de parente, 
+Aí pode gerar uma alerta, pois pode está usando esse cnpj para levantar caixa rápido. 
+Ou sempre so antecipa pagamentos do cnpj dos parentes, 
+Taxa de antecipação antecipar mais de 50%  dos recebíveis. Isso mostra uma grande dependência de caixa externo, etc. 
+e sobre recomendação de produtos. 
+Podemos oferecer por exemplo produto. Por exemplo folha de pagamento. 
+E outro feature que desenvolvi 
+Foi de Serasa dívidas 
+Essa feature foi criado para monitoramento o status financeiro dos clientes ou solicitantes, se existe algum registro negativo no histórico 
+O processo  olhava para histórico dos últimos 12 meses, e captura a data de pagamento 
+fiquei la pro 3 anos
+Foi uma experiência muito valiosa.
+Foi lá que eu fui treinada para ser uma profissional mais resiliente, eficiente e protagonista.
+E muitas vezes precisava orquestrar uma demanda Cross time, 
+Mapear requisitos, alinhar expectativas e prioridades 
+Aqui no Itaú, o banco é muito grande, e aumentar a produtividade e melhorar a eficiência — tanto operacional quanto financeira — é um desafio constante.
