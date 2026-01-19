@@ -75,7 +75,7 @@
         <mxCell id="Wr9A_ez12JpOHuw7iJSH-29" edge="1" parent="1" source="Wr9A_ez12JpOHuw7iJSH-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Wr9A_ez12JpOHuw7iJSH-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Wr9A_ez12JpOHuw7iJSH-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="ler config.json" vertex="1">
+        <mxCell id="Wr9A_ez12JpOHuw7iJSH-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="ler nome_tabela.json" vertex="1">
           <mxGeometry height="60" width="120" x="-20" y="270" as="geometry" />
         </mxCell>
         <mxCell id="Wr9A_ez12JpOHuw7iJSH-26" edge="1" parent="1" source="Wr9A_ez12JpOHuw7iJSH-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Wr9A_ez12JpOHuw7iJSH-1">
@@ -84,8 +84,11 @@
         <mxCell id="Wr9A_ez12JpOHuw7iJSH-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="event-bridge" vertex="1">
           <mxGeometry height="60" width="120" x="-330" y="-40" as="geometry" />
         </mxCell>
-        <mxCell id="Wr9A_ez12JpOHuw7iJSH-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="{nome_lambda_autenticacao: &quot;&quot;,&amp;nbsp;&lt;div&gt;user_consulta:{&lt;/div&gt;&lt;div&gt;&quot;url&quot;:&quot;&quot;,, quantidade de arquivo, quantidade de paralelismo default 10&lt;/div&gt;&lt;div&gt;&quot;path_estrutura:&quot;&quot;,&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;url_consulta:[]&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;defasagem&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;sor: &quot;nome tabela&quot;: {url},&amp;nbsp;&lt;/div&gt;&lt;div&gt;sot?&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="110" width="370" x="220" y="120" as="geometry" />
+        <mxCell id="Wr9A_ez12JpOHuw7iJSH-105" edge="1" parent="1" source="Wr9A_ez12JpOHuw7iJSH-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Wr9A_ez12JpOHuw7iJSH-104">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wr9A_ez12JpOHuw7iJSH-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="{nome_lambda_autenticacao: &quot;&quot;,&amp;nbsp;&lt;div&gt;user_consulta:{&lt;/div&gt;&lt;div&gt;&quot;url&quot;:&quot;&quot;,, quantidade de arquivo, quantidade de paralelismo default 10&lt;/div&gt;&lt;div&gt;&quot;path_estrutura:&quot;&quot;,&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;url_consulta:[]&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;defasagem&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;sor: &quot;nome tabela&quot;: {url},&amp;nbsp;&lt;/div&gt;&lt;div&gt;sot?&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;cron&lt;/div&gt;" vertex="1">
+          <mxGeometry height="200" width="370" x="220" y="120" as="geometry" />
         </mxCell>
         <mxCell id="Wr9A_ez12JpOHuw7iJSH-53" edge="1" parent="1" source="Wr9A_ez12JpOHuw7iJSH-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Wr9A_ez12JpOHuw7iJSH-50">
           <mxGeometry relative="1" as="geometry">
@@ -220,8 +223,8 @@
         <mxCell id="Wr9A_ez12JpOHuw7iJSH-88" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&amp;nbsp;sucesso e if sot,&lt;div&gt;sim&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="100" x="1240" y="1210" as="geometry" />
         </mxCell>
-        <mxCell id="Wr9A_ez12JpOHuw7iJSH-90" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="definir estrutura de config&lt;div&gt;tipos de erro, documentacao de chatgpt, testes em dev,&amp;nbsp;&lt;/div&gt;&lt;div&gt;verificar se glue module normal existe permissao de criar step-function e event-bridge&lt;/div&gt;&lt;div&gt;reprocessamento: terminou colecao, 1, reprocessar&amp;nbsp; apenas ingestao,&amp;nbsp;&lt;/div&gt;&lt;div&gt;2. reprocessar apenas, algumas tabelas com user ok, informar nome da tabela e data de consulta [ start_date, end_date]&amp;nbsp; =, uma data, start&amp;lt; end, intervalo incluindo start e end, informacao de fase, colecao ou ingestao,&amp;nbsp;&lt;/div&gt;&lt;div&gt;reprocessar completamente (possivel ver historico de outras datas na colecao?) data tbm,&amp;nbsp;&lt;/div&gt;&lt;div&gt;workflow por config, multiplas tabelas por um config por questao de user. como gerar user com sucesso, depois um glue para&amp;nbsp; consulta de interacoes&lt;/div&gt;&lt;div&gt;falhar no final, nao interroomr&amp;nbsp;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="180" width="460" x="690" y="90" as="geometry" />
+        <mxCell id="Wr9A_ez12JpOHuw7iJSH-90" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="definir estrutura de config&lt;div&gt;tipos de erro, documentacao de chatgpt, testes em dev,&amp;nbsp;&lt;/div&gt;&lt;div&gt;verificar se glue module normal existe permissao de criar step-function e event-bridge&lt;/div&gt;&lt;div&gt;reprocessamento: terminou colecao, 1, reprocessar&amp;nbsp; apenas ingestao,&amp;nbsp;&lt;/div&gt;&lt;div&gt;2. reprocessar apenas, algumas tabelas com user ok, informar nome da tabela e data de consulta [ start_date, end_date]&amp;nbsp; =, uma data, start&amp;lt; end, intervalo incluindo start e end, informacao de fase, colecao ou ingestao,&amp;nbsp;&lt;/div&gt;&lt;div&gt;reprocessar completamente (possivel ver historico de outras datas na colecao?) data tbm,&amp;nbsp;&lt;/div&gt;&lt;div&gt;workflow por config, multiplas tabelas por um config por questao de user. como gerar user com sucesso, depois um glue para&amp;nbsp; consulta de interacoes&lt;/div&gt;&lt;div&gt;falhar no final, nao interroomr&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;user compartilhado ou nao? se nao, uma event por tabela, se sim, loop/map?&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="210" width="460" x="690" y="90" as="geometry" />
         </mxCell>
         <mxCell id="Wr9A_ez12JpOHuw7iJSH-92" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="mesmo glue job, parametro de input no step function para acionar a execucao do sot" vertex="1">
           <mxGeometry height="80" width="130" x="1360" y="1170" as="geometry" />
@@ -249,6 +252,12 @@
         </mxCell>
         <mxCell id="Wr9A_ez12JpOHuw7iJSH-101" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="class" vertex="1">
           <mxGeometry height="30" width="60" x="115" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Wr9A_ez12JpOHuw7iJSH-102" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="reprocessar d-1 referente a data de consulta?&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="310" x="610" y="1280" as="geometry" />
+        </mxCell>
+        <mxCell id="Wr9A_ez12JpOHuw7iJSH-104" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="terraform varrer essa pasta, e criar um event para cada config.json&lt;div&gt;tenta o maximo possivel, usa esse config.com como entrada.&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="135" width="120" x="620" y="355" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
